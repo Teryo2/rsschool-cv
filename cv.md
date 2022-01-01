@@ -24,3 +24,5 @@ return a * b
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ***
 # Languages
+* English level A2 (was on Africa and has a experience in spoken leanguage)
+***
