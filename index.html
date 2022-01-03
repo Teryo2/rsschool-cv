@@ -1,38 +1,80 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Резюме</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <title>cv</title>
 </head>
-<h1>Marcul Evgeniy</h1>
-
-<h1>Student</h1>
-
-<h1>Contacts</h1>
-<ul>
-    <li><strong>Location:</strong> Grodno, Belarus</li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/Teryo2">Teryo2</a></li>
-    <li><strong>Email:</strong>therealyou1201@gmail.com</li>
-    <li><strong>Discord:</strong>Therealyou</li>
-</ul>
-
-<h1>About me</h1>
-<p>Im a student of Yanka Kupala Grodno State University. Studying at the faculty of civil engineering. I want to try myself as programmer and ready to learn more about this.</p>
-
-<h1>Skills</h1>
-<p>None</p>
-
-<h1>Code example</h1>
-<p>This code does not execute properly. Try to figure out why.
-    function multiply(a, b){
-    return a * b
-    }
-</p>
-
-<h1>Cources</h1>
-<p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
-
-<h1>Languages</h1>
-<p>English level A2 (was on Africa and has a experience in spoken leanguage)</p>
+<body class="body"> 
+    <header class="header">
+        <div class="container header">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#cources" class="nav-link">Cources</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="assest/img/3S1VlRQQyVk.jpg" width="400" height="300" alt="my avatar">
+            
+            <h1>Marcul Evgeniy</h1>
+        
+            <h2>Student</h2>
+            
+            </section>
+            <section class="section-contacts" id="contacts"><h2>Contacts</h2>
+            <ul>
+                <li><strong>Location:</strong> Grodno, Belarus</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Teryo2" target="_blank">Teryo2</a></li>
+                <li><strong>Email:</strong> therealyou1201@gmail.com</li>
+                <li><strong>Discord:</strong> Therealyou</li>
+            </ul>
+            </section>
+            <section class="section-summary" id="summary"><h2>Summary</h2>
+            <p>Im a student of Yanka Kupala Grodno State University. Studying at the faculty of civil engineering. I want to try myself as programmer and ready to learn more about this.</p>
+            </section>
+            <section class="section-skills" id="skills"><h2>Skills</h2>
+            <p>None</p>
+            </section>
+            <section class="section-code" id="code"><h2>Code</h2>
+            <p>This code does not execute properly. Try to figure out why.</p>
+                <p>multiply(a, b){</p>
+                <p>a * b</p>
+                <p>}</p>
+            </section>
+            <section class="section-cources" id="cources"><h2>Cources</h2>
+            <p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+            </section>
+            <section class="section-english" id="english"><h2>English</h2>
+            <p>A2</p>  
+            </section>
+            <section class="section-education" id="education"><h2>Education</h2>
+                <p>Incomplete higher education</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+        "©2022"
+        <a href="https://github.com/Teryo2" class="">Teryo2</a>
+        </div>
+        <div class="rss-right">
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" width="200" height="100" alt="rss">
+            </a>
+        </div>
+    </footer>
+</body>
 </html>
